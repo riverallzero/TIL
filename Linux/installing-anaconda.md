@@ -3,7 +3,9 @@
 ## 1. download
 - check your python version to download the appropriate anaconda(ex.python=3.8)
 
-```$ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh```
+```
+$ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+```
 
 ## 2. install
 ```
