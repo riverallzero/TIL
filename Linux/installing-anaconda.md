@@ -25,3 +25,9 @@ $ conda --version
 
 conda 23.7.4
 ```
+
+## 4. usage
+```
+$ conda create -n <env-name>
+$ conda activate <env-name>
+```

@@ -3,7 +3,9 @@
 ## 📖 Dayoung's TIL
 
 ### ABOUT
-Hello, I'm Dayoung Kang, majoring in digital agriculture and computer science at Jeonbuk National University. After learned Python in 2022, I became interested in AI by developing crop-yield prediction model about bell pepper and wheat at the "Smart Digital Agricultural Laboratory (2022.02-11). Currently, interested in 'Distributed AI' and studying federated learning.
+Hello, my name is Dayoung Kang, double majoring in Digital Agriculture and Computer Science at Jeonbuk National University. 
+I'm undergraduate researcher in MACS(Medical AI & Computational System) Lab.
+My current research interest is 'federated learning'.
 
 - GitHub: [@riverallzero](https://github.com/riverallzero)
 - LinkedIn: [@riverallzero](https://www.linkedin.com/in/riverallzero/)
