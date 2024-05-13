@@ -1,6 +1,7 @@
 # Summary
 
 - [Home](README.md)
-- [Linux](./Linux/README.md)
-  - [Installing Anaconda](./Linux/installing-anaconda.md)
-  - [Using Byobu](./Linux/using-byobu.md)
+- [Linux](./linux/README.md)
+  - [Installing Anaconda](./linux/installing-anaconda.md)
+  - [Using Byobu](./linux/using-byobu.md)
+  - [Setting GPU Environment with CUDA, cuDDN, PyTorch](./linux/setting-gpu-environment.md)
