@@ -40,11 +40,12 @@ sudo sh cuda_11.8.0_520.61.05_linux.run
 sudo nano ~/.bashrc
 ```
 
-on the bottom line, enter the following two lines of code
+on the bottom line, enter the following three lines of code
 
 ```shell
 export PATH="/usr/local/cuda-11.8/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH"
+export TF_CUDA_PATHS="/usr/local/cuda-11.8/lib64:$TF_CUDA_PATHS"
 ```
 
 apply setting
