@@ -92,8 +92,8 @@ cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2
 result
 ```shell
 #define CUDNN_MAJOR 8
-#define CUDNN_MINOR 9
-#define CUDNN_PATCHLEVEL 7
+#define CUDNN_MINOR 6
+#define CUDNN_PATCHLEVEL 
 ```
 
 ## PyTorch
