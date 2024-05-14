@@ -64,20 +64,20 @@ Build cuda_11.8.r11.8/compiler.31833905_0
 ```
 
 ## cuDDN
-1. download(select CUDA version): https://developer.nvidia.com/rdp/cudnn-archive
+1. download(select CUDA version): [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)
 
 2. unzip
 ```shell
-tar -xvf cudnn-linux-x86_64-8.9.7.29_cuda11-archive.tar.xz
+tar -xvf cudnn-linux-x86_64-8.7.0.84_cuda11-archive.tar.xz
 ```
 
 3. setting path
 ```shell
-sudo cp cudnn-linux-x86_64-8.9.7.29_cuda11-archive/include/cudnn*.h /usr/local/cuda-11.8/include
+sudo cp cudnn-linux-x86_64-8.7.0.84_cuda11-archive/include/cudnn*.h /usr/local/cuda-11.8/include
 ```
 
 ```shell
-sudo cp cudnn-linux-x86_64-8.9.7.29_cuda11-archive/lib/libcudnn* /usr/local/cuda-11.8/lib64
+sudo cp cudnn-linux-x86_64-8.7.0.84_cuda11-archive/lib/libcudnn* /usr/local/cuda-11.8/lib64
 ```
 
 ```shell
