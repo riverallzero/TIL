@@ -4,4 +4,4 @@
 - [Linux](./linux/README.md)
   - [Installing Anaconda](./linux/installing-anaconda.md)
   - [Using Byobu](./linux/using-byobu.md)
-  - [Setting GPU Environment with CUDA, cuDDN, PyTorch](./linux/setting-gpu-environment.md)
+  - [Installing PyTorch and Tensorflow with CUDA, cuDDN](./linux/installing-pytorch-tensorflow.md)
