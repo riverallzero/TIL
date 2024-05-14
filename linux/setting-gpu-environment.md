@@ -64,20 +64,20 @@ Build cuda_11.8.r11.8/compiler.31833905_0
 ```
 
 ## cuDDN
-1. download(select CUDA version): [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)
+1. download(select CUDA version): [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive) - Download cuDNN v8.6.0   (October 3rd, 2022), for CUDA 11.x
 
 2. unzip
 ```shell
-tar -xvf cudnn-linux-x86_64-8.7.0.84_cuda11-archive.tar.xz
+tar -xvf cudnn-linux-x86_64-8.6.0.163_cuda11-archive.tar.xz
 ```
 
 3. setting path
 ```shell
-sudo cp cudnn-linux-x86_64-8.7.0.84_cuda11-archive/include/cudnn*.h /usr/local/cuda-11.8/include
+sudo cp cudnn-linux-x86_64-8.6.0.163_cuda11-archive/include/cudnn*.h /usr/local/cuda-11.8/include
 ```
 
 ```shell
-sudo cp cudnn-linux-x86_64-8.7.0.84_cuda11-archive/lib/libcudnn* /usr/local/cuda-11.8/lib64
+sudo cp cudnn-linux-x86_64-8.6.0.163_cuda11-archive/lib/libcudnn* /usr/local/cuda-11.8/lib64
 ```
 
 ```shell
@@ -114,3 +114,9 @@ python
 >> print(torch.cuda.get_device_name(torch.cuda.current_device()))
    NVIDIA GeForce RTX 4070 Ti SUPER
 ```
+
+## Tensorflow
+1. install with pip
+   ```shell
+   pip install tensorflow-gpu==2.12.0
+   ```
