@@ -93,7 +93,7 @@ result
 ```shell
 #define CUDNN_MAJOR 8
 #define CUDNN_MINOR 6
-#define CUDNN_PATCHLEVEL 
+#define CUDNN_PATCHLEVEL 0
 ```
 
 ## PyTorch
