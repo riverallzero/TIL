@@ -1,4 +1,4 @@
-# Setting GPU Environment with CUDA, cuDDN, PyTorch
+# Installing PyTorch and Tensorflow with CUDA, cuDDN
 
 ## NVIDIA driver
 1. download driver(select your type): https://www.nvidia.com/Download/index.aspx
