@@ -116,7 +116,12 @@ python
 ```
 
 ## Tensorflow
-1. install with pip
+1. create conda
    ```shell
-   pip install tensorflow-gpu==2.12.0
+   conda create -n <env-name> python=3.8
+   ```
+   
+2. install with pip
+   ```shell
+   pip install tensorflow==2.12
    ```
