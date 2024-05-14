@@ -1,5 +1,7 @@
 # Installing PyTorch and Tensorflow with CUDA, cuDDN
 
+for Ubuntu 20.04 version
+
 ## NVIDIA driver
 1. download driver(select your type): [https://www.nvidia.com/Download/index.aspx](https://www.nvidia.com/Download/index.aspx)
    - RTX 4070 Ti SUPER
