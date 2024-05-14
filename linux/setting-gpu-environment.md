@@ -125,3 +125,31 @@ python
    ```shell
    pip install tensorflow==2.12
    ```
+
+3. check
+   ```shell
+   python
+
+   >> from tensorflow.python.client import device_lib
+   >> device_lib.list_local_devices()
+      [name: "/device:CPU:0"
+      device_type: "CPU"
+      memory_limit: 268435456
+      locality {
+      }
+      incarnation: 2737954448086927755
+      xla_global_id: -1
+      , name: "/device:GPU:0"
+      device_type: "GPU"
+      memory_limit: 14345699328
+      locality {
+        bus_id: 1
+        links {
+        }
+      }
+      incarnation: 6898625890745723943
+      physical_device_desc: "device: 0, name: NVIDIA GeForce RTX 4070 Ti SUPER, pci bus id: 0000:0a:00.0, compute capability: 8.9"
+      xla_global_id: 416903419
+      ]
+   ```
+   
