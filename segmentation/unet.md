@@ -1,24 +1,15 @@
 # U-Net: Convolutional Networks for Biomedical Image Segmentation
 
-## Needs
-- typical convolutional network &rarr; single label classification
-- biomedical &rarr; **each pixel** classification(localization)
-
-### sliding window
-```Ciresan, 2012``` suggested to localize the networks, solves a problem using data within a fixed-size window as it moves around.
-- network must be run separately for each patch &rarr; slow, redundancy
-- trade-off between localization accuracy and the use of context(patch)
-
 ## Structures
 ![](../asset/segmentation/unet-structure.png)
 
 The UNet architecture is divided into a contracting path(encoder) and an expanding path(decoder), which together form a 'U' shape, that's why it called ```UNet```. 
 
 ### encoder
-When input image comes as a **grayscale(572x572x1)**, convolution operations are performed twice using 64's 3x3 convolution filters with ReLU activation, followed by 2x2 max pooling. 
+When input image comes as a **grayscale**(572x572x1), convolution operations are performed twice using 64's 3x3 convolution filters with ReLU activation, followed by 2x2 max pooling. 
 This process is repeated, til the image size will be 32x32. 
 This part is the encoder and is similar to a general CNN model.
-The **bridge(30x30x1024)** is the total set of features and the model is trained to find it. 
+The **bridge**(30x30x1024) is the total set of features and the model is trained to find it. 
 But bridges don't have spatial information. 
 They have features about the input image, but they don't contain information(spatial) about each pixel. 
 
