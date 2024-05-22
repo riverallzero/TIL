@@ -142,8 +142,12 @@ if you see something like this, you're good to go!
    ```shell
    conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
    ```
-
-2. check
+2. install with pip
+   ```shell
+   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   ```
+   
+3. check
    ```shell
    python
    
