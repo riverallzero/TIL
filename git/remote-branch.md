@@ -37,7 +37,7 @@ then we can get local branch!!
 ```shell
 git branch -a
 
-example
+  example
 * main
   remotes/origin/example
   remotes/origin/HEAD -> origin/main
