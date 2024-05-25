@@ -20,7 +20,7 @@ This process is repeated until the image is reconstructed to a 388x388x64 shape.
 Finally, a softmax function is applied, resulting in a final output of **388x388x2**. 
 Here, the two classes represent whether a pixel is part of a cell or not.
 
-## code
+## Code
 ```python
 import tensorflow as tf
 from tensorflow.keras.models import Model
