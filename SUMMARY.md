@@ -9,3 +9,4 @@
   - [Installing PyTorch and Tensorflow with CUDA, cuDDN](./linux/installing-pytorch-tensorflow.md)
 - [Segmentation](./segmentation/README.md)
   - [U-Net](./segmentation/unet.md)
+  - [SegNet](./segmentation/segnet.md)
