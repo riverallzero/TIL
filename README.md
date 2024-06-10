@@ -9,4 +9,3 @@ My current research interest is 'federated learning'
 
 - GitHub: [@riverallzero](https://github.com/riverallzero)
 - LinkedIn: [@riverallzero](https://www.linkedin.com/in/riverallzero/)
-- Blog: [@riverallzero.tistory](https://riverallzero.tistory.com/)
