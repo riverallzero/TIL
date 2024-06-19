@@ -8,7 +8,7 @@
   - [Using Byobu](./linux/using-byobu.md)
   - [Installing PyTorch and Tensorflow with CUDA, cuDDN](./linux/installing-pytorch-tensorflow.md)
 - [Segmentation](./segmentation/README.md)
-  - [U-Net](./segmentation/unet.md)
+  - [UNet](./segmentation/unet.md)
   - [SegNet](./segmentation/segnet.md)
   - [RetinaUNet](./segmentation/retinaunet.md)
   - [DenseUNet](./segmentation/denseunet.md)
