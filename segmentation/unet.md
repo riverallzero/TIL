@@ -1,4 +1,4 @@
-# U-Net: Convolutional Networks for Biomedical Image Segmentation
+# UNet: Convolutional Networks for Biomedical Image Segmentation
 
 ## Structures
 ![](../asset/segmentation/unet-structure.png)
