@@ -8,7 +8,7 @@ The RetinaUNet architecture naturally fuses the Retina Net one-stage detector wi
 ### RetinaNet
 ![](../asset/segmentation/retinanet-structure.png)
 
-RetinaNet(https://doi.org/10.48550/arXiv.1708.02002) is a simple one-stage detector based on a FPN for feature extraction.
+[RetinaNet](https://doi.org/10.48550/arXiv.1708.02002) is a simple one-stage detector based on a FPN for feature extraction.
 
 ## Code
 ```python
