@@ -12,8 +12,7 @@ RetinaNet(https://doi.org/10.48550/arXiv.1708.02002) is a simple one-stage detec
 
 ## Code
 ```python
-from tensorflow.keras.layers import Conv2D, BatchNormalization, Activation, MaxPool2D, Conv2DTranspose, Concatenate, \
-    Input
+from tensorflow.keras.layers import Conv2D, BatchNormalization, Activation, MaxPool2D, Conv2DTranspose, Concatenate, Input
 from tensorflow.keras.models import Model
 
 
