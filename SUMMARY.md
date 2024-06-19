@@ -10,3 +10,5 @@
 - [Segmentation](./segmentation/README.md)
   - [U-Net](./segmentation/unet.md)
   - [SegNet](./segmentation/segnet.md)
+  - [RetinaUNet](./segmentation/retinaunet.md)
+  - [DenseUNet](./segmentation/denseunet.md)
