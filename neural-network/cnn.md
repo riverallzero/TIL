@@ -4,7 +4,7 @@ Let's start by understanding how a Convolutional GNN works with ```X``` and ```O
 
 ![](../asset/neural-network/cnn-x.png)
 
-First, let's consider this image and determine how we can classify it as an X. 
+First, let's consider this image and determine how can we classify it as an X. 
 CNNs compare images ```piece by piece```, extracting features that represent the image well.
 
 In this image, the 3x3 feature can be represented as follows:
