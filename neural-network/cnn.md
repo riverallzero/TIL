@@ -9,7 +9,7 @@ CNNs compare images ```piece by piece```, extracting features that represent the
 
 In this image, the 3x3 feature can be represented as follows:
 
-<img src="../asset/neural-network/cnn-feature.png" width="60%">
+![](../asset/neural-network/cnn-feature.png)
 
 This is the important part that shows this image is an ```X```.
 
