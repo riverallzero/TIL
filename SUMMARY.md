@@ -8,6 +8,7 @@
   - [Using Byobu](./linux/using-byobu.md)
   - [Installing PyTorch and Tensorflow with CUDA, cuDDN](./linux/installing-pytorch-tensorflow.md)
 - [Neural Network](./neural-network/README.md)
+  - [CNN](./neural-network/cnn.md)
   - [GNN](./neural-network/gnn.md)
 - [Segmentation](./segmentation/README.md)
   - [UNet](./segmentation/unet.md)
