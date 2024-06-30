@@ -8,17 +8,6 @@ First, we represent structural formula to graph using generic nodes ```A, B, C``
 ## Adjacency Matrix (A): message passing
 The adjacency matrix captures the ```connectivity`` of the graph, including self-connections (nodes connected to themselves).
 
-\[
-A = \begin{array}{c|ccc}
-  & A & B & C \\
-\hline
-A & 1 & 1 & 1 \\
-B & 1 & 1 & 0 \\
-C & 1 & 0 & 1 \\
-\end{array}
-\]
-
-
 ```
   A B C
 A 1 1 1
@@ -36,7 +25,7 @@ C 0 1 # hydrogen
 ```
 
 ## Feature Representation (H)
-We calculate the feature representation by **multiplying** the ```adjacency matrix(A) and feature matrix(X)```.
+We calculate the feature representation by **multiplying** the ```adjacency matrix(A)``` and ```feature matrix(X)```.
 
 ```
 H = A x X
