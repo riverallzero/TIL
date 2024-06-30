@@ -6,7 +6,7 @@ Let's start by understanding how a Convolutional GNN works with the example of `
 First, represent structural formula to graph using generic nodes ```A, B, C``` for simplicity.
 
 ## Adjacency Matrix (A): message passing
-The adjacency matrix captures the ```connectivity`` of the graph, including self-connections (nodes connected to themselves).
+The adjacency matrix captures the ```connectivity``` of the graph, including self-connections (nodes connected to themselves).
 
 ```
   A B C
@@ -16,7 +16,7 @@ C 1 0 1
 ```
 
 ## Feature Matrix (X): node update
-Each node has its own feature. I use ```binary features``` to represent whether the atom is ```Oxygen or Hydrogen```.
+Each node has its own feature. I use ```binary features``` to represent whether the atom is **Oxygen** or **Hydrogen**.
 
 ```
 A 1 0 # oxygen
@@ -25,7 +25,7 @@ C 0 1 # hydrogen
 ```
 
 ## Feature Representation (H)
-Calculate the feature representation by **multiplying** the ```adjacency matrix(A)``` and ```feature matrix(X)```.
+Calculate the feature representation by ```multiplying``` the **adjacency matrix(A)** and **feature matrix(X)**.
 
 ```
 H = A x X
