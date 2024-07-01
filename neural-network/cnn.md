@@ -52,6 +52,8 @@ Every value gets its ```own vote``` on whether the current image is an X or O to
 I implemented my own CNN model by stacking layers in the following order: ```conv > relu > conv > relu > max-pool > fully connected ```.
 This model was designed to classify ```X``` and ```O```, used linear regression to predict.
 
+![](../asset/neural-network/cnn-data.png)
+
 I emailed to ```Brandon Rohrer```([How Convolutional Neural Networks work](https://www.youtube.com/watch?v=FmpDIaiMIeA)) to verify its correctness, and he confirmed that it was correct!
 
 ![](../asset/neural-network/cnn-email.png)
