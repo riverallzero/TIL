@@ -275,7 +275,7 @@ def main():
     prediction_1 = model.predict(vector_target_1.reshape(1, -1))
     prediction_2 = model.predict(vector_target_2.reshape(1, -1))
 
-    print(f'TARGET-1 예측값 = {prediction_1}\nTARGET-2 예측값 = {prediction_2}')
+    print(f'TARGET-1 = {prediction_1}\nTARGET-2 = {prediction_2}') # TARGET-1 = X TARGET-2 = S
 
 
 if __name__ == '__main__':
