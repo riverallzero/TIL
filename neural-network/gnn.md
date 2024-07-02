@@ -6,13 +6,13 @@ Let's start by understanding how a Convolutional GNN works with the example of `
 First, represent structural formula to graph using generic nodes ```A, B, C``` for simplicity.
 
 ## Adjacency Matrix (A): message passing
-The adjacency matrix captures the ```connectivity``` of the graph, including self-connections (nodes connected to themselves).
+The adjacency matrix captures the ```connectivity``` of the graph.
 
 ```
   A B C
-A 1 1 1
-B 1 1 0
-C 1 0 1
+A 0 1 1
+B 1 0 0
+C 1 0 0
 ```
 
 ## Feature Matrix (X): node update
@@ -30,9 +30,9 @@ Calculate the feature representation by ```multiplying``` the **adjacency matrix
 ```
 H = A x X
 
-1 1 1       1 0       1 2
-1 1 0   x   0 1   =   1 1
-1 0 1       0 1       1 1
+0 1 1       1 0       0 2
+1 0 0   x   0 1   =   1 0
+1 0 0       0 1       1 0
 ```
 
 ## Pooling
