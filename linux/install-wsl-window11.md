@@ -21,6 +21,6 @@ install extension ```WSL```
 1. ```sudo apt-get update```
 2. ```sudo apt-get install wget ca-certificates```
 3. ```cd wanted_dir```
-4. ```code .```
+4. ```code .``` &rarr; vscode automatically starts 
 
 ![](../asset/linux/vscode-ubuntu.png)
