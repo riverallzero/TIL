@@ -109,10 +109,6 @@ if you have error while installing NVIDIA driver or CUDA, please follow this ste
 ## cuDDN
 1. select CUDA version and download [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)
    - cuDNN v8.6.0   (October 3rd, 2022), for CUDA 11.x - Local Installer for Linux x86_64 (Tar)
-  
-   ```shell
-   wget https://developer.nvidia.com/compute/cudnn/secure/8.6.0/local_installers/11.8/cudnn-linux-x86_64-8.6.0.163_cuda11-archive.tar.xz
-   ```
 
 2. unzip file
    ```shell
