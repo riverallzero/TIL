@@ -9,7 +9,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 
 ## 2. install
 ```shell
-bash Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
 ```
 
 ### result
@@ -17,6 +17,7 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 Do you accept the license terms? [yes|no]
 [no] >>> yes
 :
+[/home/username/anaconda3] >>> # ENTER
 :
 You can undo this by running 'conda init --reverse $SHELL'? [yes|no]
 [no] >>> yes
@@ -31,6 +32,11 @@ conda --version
 ```shell
 conda 23.7.4
 ```
+
+- if occur error(conda: command not found)
+  ```shell
+  export PATH=~/anaconda3/bin:$PATH
+  ```
 
 ## 4. usage
 ```shell

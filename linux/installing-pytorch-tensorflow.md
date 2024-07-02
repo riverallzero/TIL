@@ -11,6 +11,8 @@ if you have error while installing NVIDIA driver or CUDA, please follow this ste
 4. ```sudo rm -rf /usr/local/cuda*```
 
 ## NVIDIA driver
+⚠️Can be passed if you already installed driver(```nvidia-smi``` shows your GPU)
+
 1. select your type and download file in [https://www.nvidia.com/Download/index.aspx](https://www.nvidia.com/Download/index.aspx)
    - RTX 4070 Ti SUPER
    - Linux 64bit
@@ -107,13 +109,17 @@ if you have error while installing NVIDIA driver or CUDA, please follow this ste
 ## cuDDN
 1. select CUDA version and download [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)
    - cuDNN v8.6.0   (October 3rd, 2022), for CUDA 11.x - Local Installer for Linux x86_64 (Tar)
+  
+   ```shell
+   wget https://developer.nvidia.com/compute/cudnn/secure/8.6.0/local_installers/11.8/cudnn-linux-x86_64-8.6.0.163_cuda11-archive.tar.xz
+   ```
 
-3. unzip file
+2. unzip file
    ```shell
    tar -xvf cudnn-linux-x86_64-8.6.0.163_cuda11-archive.tar.xz
    ```
 
-4. setting path to copy cuDNN files into CUDA
+3. setting path to copy cuDNN files into CUDA
    ```shell
    sudo cp cudnn-linux-x86_64-8.6.0.163_cuda11-archive/include/cudnn*.h /usr/local/cuda-11.8/include
    ```
@@ -126,7 +132,7 @@ if you have error while installing NVIDIA driver or CUDA, please follow this ste
    sudo chmod a+r /usr/local/cuda-11.8/include/cudnn*.h /usr/local/cuda-11.8/lib64/libcudnn*
    ```
 
-5. check
+4. check
    ```shell
    cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2
    ```
