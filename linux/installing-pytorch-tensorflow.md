@@ -11,7 +11,7 @@ if you have error while installing NVIDIA driver or CUDA, please follow this ste
 4. ```sudo rm -rf /usr/local/cuda*```
 
 ## NVIDIA driver
-⚠️Can be passed if you already installed driver(if ```nvidia-smi``` shows your GPU)
+⚠️Can be passed if you already installed driver(```nvidia-smi``` shows your GPU)
 
 1. select your type and download file in [https://www.nvidia.com/Download/index.aspx](https://www.nvidia.com/Download/index.aspx)
    - RTX 4070 Ti SUPER
