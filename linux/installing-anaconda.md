@@ -28,6 +28,11 @@ You can undo this by running 'conda init --reverse $SHELL'? [yes|no]
 conda --version
 ```
 
+### if occur error(conda: command not found)
+```shell
+export PATH=~/anaconda3/bin:$PATH
+```
+
 ### result
 ```shell
 conda 23.7.4
