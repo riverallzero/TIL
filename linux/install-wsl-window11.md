@@ -3,49 +3,24 @@
 ## 1. Install Ubuntu
 run PowerShell as administrator and install ubuntu
 
-- if wsl not installed on your computer
-    ```shell
-    wsl --install
-    ```
-- else to get specific version
-    ```shell
-    wsl --install -d Ubuntu-20.04
-    ```
+```shell
+wsl --install -d Ubuntu-20.04
+```
 
 now, you can use ubuntu with CUI(ubuntu lts app)
 
-## 2. Using Ubuntu with GUI
-run Ubuntu and install packages
+![](../asset/linux/ubuntu-cui.png)
 
-### ubuntu desktop
-```shell
-sudo apt update && apt -y upgrade
-sudo apt install -y ubuntu-desktop
-```
+## 2. Using Ubuntu with VSCode
+### vscode
+install extension ```WSL```
 
-###  xfce4 & xrdp 
+![](../asset/linux/vscode-wsl.png)
 
-```shell
-sudo apt -y install xfce4
-```
+### ubuntu
+1. ```sudo apt-get update```
+2. ```sudo apt-get install wget ca-certificates```
+3. ```cd wanted_dir```
+4. ```code .```
 
-![](../asset/linux/xfce4.png)
-
-```shell
-sudo apt-get install xrdp
-sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
-sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
-sudo sed -i 's/max_bpp=32/#max_bpp=32nmax_bpp=128/g' /etc/xrdp/xrdp.ini
-sudo sed -i 's/xserverbpp=24/#xserverbpp=24nxserverbpp=128/g' /etc/xrdp/xrdp.ini
-
-# activate xrdp
-sudo /etc/init.d/xrdp start
-```
-
-### connect remote desktop
-
-![](../asset/linux/remote-desktop.png)
-
-![](../asset/linux/ubuntu-gui-login.png)
-
-![](../asset/linux/ubuntu-gui.png)
+![](../asset/linux/vscode-ubuntu.png)
