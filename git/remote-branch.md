@@ -52,7 +52,7 @@ git commit -m 'commit-message'
 git push origin example
 ```
 
-if you want to add and local branch to remote branch for control, just push use ```-u``` option
+if you want to add local branch to remote branch, just push using ```-u``` option
 
 ```shell
 git push -u origin example
