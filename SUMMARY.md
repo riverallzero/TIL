@@ -18,3 +18,5 @@
   - [RetinaUNet](./segmentation/retinaunet.md)
   - [SegNet](./segmentation/segnet.md)
   - [UNet](./segmentation/unet.md)
+- [Visualization](./visualization/README.md)
+  - [PCA vs t-SNE](./visualization/pca-tsne.md)
