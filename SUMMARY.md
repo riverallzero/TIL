@@ -11,6 +11,7 @@
 - [Neural Network](./neural-network/README.md)
   - [CNN](./neural-network/cnn.md)
   - [GNN](./neural-network/gnn.md)
+  - [SNN with SigNet](./neural-network/snn.md)
 - [Segmentation](./segmentation/README.md)
   - [ConvNet](./segmentation/convnet.md)
   - [DenseUNet](./segmentation/denseunet.md)
