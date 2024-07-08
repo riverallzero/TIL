@@ -2,13 +2,8 @@
 
 Both methods are used to visualize high-dimensional data in low-dimensional spaces to aid human understanding.
 
-## Method
-- PCA: collapses dimensions by finding the axis that preserves the most variance in the data
-- t-SNE: calculate and optimize similarity between high-dimensional and low-dimensional data using probability distributions(similar data closer together, different data far apart)
-
-## Data
-- PCA: linear data
-- t-SNE: linear & non-linear data
+- PCA: collapses dimensions by finding the axis that preserves the most variance in the data(linear fold)
+- t-SNE: calculate and optimize similarity between high-dimensional and low-dimensional data using probability distributions, data structures that are similar in high-dimensional space are closely related in low-dimensional space, and data structures that are not similar are distantly related(non-linear fold)
 
 ## Visualize
 ![](../asset/visualize/PCA.png)
