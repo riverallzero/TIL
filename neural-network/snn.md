@@ -6,12 +6,12 @@
 It contain two or more identical sub-networks. “Identical” means they have the same configuration with the same parameters and weights. 
 Parameter updating is mirrored across both sub-networks and it’s used to find similarities between inputs by comparing its feature vectors.
 
-## Loss
+## Contrastive Loss
 ![](../asset/neural-network/signet-loss.png)
 
 - s1, s2: two sample images
 - y: binary indicator function denoting whether the two samples belong to the same class or not
-- α, β: two constants
+- α, β(1-α): two constants
 - m: margin(indicate that dissimilar pairs that are beyond this margin should not contribute to the loss)
 - Dw: euclidean distance
 
