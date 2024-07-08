@@ -1,6 +1,6 @@
 # PCA vs t-SNE
 
-Both of methods are visualize high demension to low dimension to understand human.
+Both methods are used to visualize high-dimensional data in low-dimensional spaces to aid human understanding.
 
 ## Method
 - PCA: collapses dimensions by finding the axis that preserves the most variance in the data
@@ -12,6 +12,7 @@ Both of methods are visualize high demension to low dimension to understand huma
 
 ## Visualize
 ![](../asset/visualize/PCA.png)
+
 ![](../asset/visualize/t-SNE.png)
 
 ## Code
