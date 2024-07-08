@@ -12,7 +12,7 @@ Parameter updating is mirrored across both sub-networks and it’s used to find 
 - s1, s2: two sample images
 - y: binary indicator function denoting whether the two samples belong to the same class or not
 - α, β: two constants
-- m: margin
+- m: margin(indicate that dissimilar pairs that are beyond this margin should not contribute to the loss)
 - Dw: euclidean distance
 
 Aims to bring the output feature vectors closer for input pairs that are labelled as similar, and push the feature vectors away if the input pairs are dissimilar.
