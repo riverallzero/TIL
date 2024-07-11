@@ -7,6 +7,7 @@
   - [Installing Anaconda](./linux/installing-anaconda.md)
   - [Installing PyTorch and Tensorflow with CUDA, cuDDN](./linux/installing-pytorch-tensorflow.md)
   - [Installing WSL in Window11](./linux/install-wsl-window11.md)
+  - [Installing Selenium & Chromedriver](./linux/selenium-chromedriver.md)
   - [Using Byobu](./linux/using-byobu.md)
 - [Neural Network](./neural-network/README.md)
   - [CNN](./neural-network/cnn.md)
